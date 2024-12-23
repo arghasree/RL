@@ -38,5 +38,7 @@ Transition: Transitional probability \
 Recurrence Relationship: Bellman Equation:
                         $$V(s) = \sum_{s'}^{}P(s'|s,a)[R + \gamma V(s')]$$
 
+## Notes
+DP is model-based as it requires an accurate model of the environment in form of transition probabilities. 
 
 
